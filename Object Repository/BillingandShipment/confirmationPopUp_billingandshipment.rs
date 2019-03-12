@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>confirmationPopUp_billingandshipment</name>
+   <tag></tag>
+   <elementGuidId>0eb1e6b7-7182-47c1-8ddf-a234bea53459</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id=&quot;confirm_popup_window&quot;]//input[@value=&quot;Yes&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id=&quot;confirm_popup_window&quot;]//input[@value=&quot;Yes&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>item_edit</name>
+   <tag></tag>
+   <elementGuidId>f687f9a4-1e7e-4359-8107-c193426ab166</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id=&quot;general_line_item_grid&quot;]//a[@title=&quot;Edit&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id=&quot;general_line_item_grid&quot;]//a[@title=&quot;Edit&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

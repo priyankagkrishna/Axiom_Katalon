@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_elementpresent</name>
+   <tag></tag>
+   <elementGuidId>6574699f-a564-45ba-abc5-5f16d043f5bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'custom_dropdown')]/span[@role='listbox'][@aria-activedescendant]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'custom_dropdown')]/span[@role='listbox'][@aria-activedescendant]</value>
+   </webElementProperties>
+</WebElementEntity>

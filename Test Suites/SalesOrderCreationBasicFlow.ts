@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SalesOrderCreationBasicFlow</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-03-06T11:32:57</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9896c197-cbc2-455e-9b50-2f7fb2c17bbd</testSuiteGuid>
+   <testCaseLink>
+      <guid>d164e544-6d12-4b95-a6ca-f9135459227f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SalesOrderCreation</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>438a7e27-e756-4a61-9b36-262b7e0790ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a854b81d-b131-4b9e-b57c-46a9f7143aa8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c215de01-1944-42ec-b5bd-77b454df418e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Operations</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;5&quot;</value>
+         <variableId>90701609-f87e-4220-9071-11628c70a50a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;3&quot;</value>
+         <variableId>a9d1adfe-e90e-48d7-b87a-53bea790e054</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;//a[@class='display_inline  icon apply_icon icon-arrow_right']&quot;</value>
+         <variableId>a67d223e-af55-491f-8375-d1006f2bc20d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5faf6d0-81d0-40c6-b0ec-5fa911ac8a26</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FinanceProcess</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

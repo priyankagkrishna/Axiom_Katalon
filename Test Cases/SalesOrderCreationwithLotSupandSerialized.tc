@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SalesOrderCreationwithLotSupandSerialized</name>
+   <tag></tag>
+   <comment>-------User Login--------
+------SalesOrder Naviagtion-----
+---------SalesOrderGeneral Information-------
+---------ItemAddition--------
+----------Save -----------------
+-----------Release-----------
+--------Generate And Process Shipment----------
+-----------Invoice Generation------------</comment>
+   <testCaseGuid>673df06b-2404-41cf-8a83-2fce027b9514</testCaseGuid>
+</TestCaseEntity>

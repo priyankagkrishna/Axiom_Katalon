@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_isequalto</name>
+   <tag></tag>
+   <elementGuidId>1f98444f-5719-4ef9-a2cb-e6967e36ac06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[contains(@class,'k-animation-container')]//span/input)[${index}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[contains(@class,'k-animation-container')]//span/input)[${index}]</value>
+   </webElementProperties>
+</WebElementEntity>

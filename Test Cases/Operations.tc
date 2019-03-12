@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Operations</name>
+   <tag></tag>
+   <comment>---------------Generate and Process Shipment
+---------------OperationGeneralShipment--------
+-----------Process Shipment--------
+-------ReviewShipment--------
+--------Pack----------
+-------------Shipping-----------</comment>
+   <testCaseGuid>ed1fe1c9-586d-4c3c-a8c6-cac91b4fd4ad</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>90701609-f87e-4220-9071-11628c70a50a</id>
+      <masked>false</masked>
+      <name>index</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>a9d1adfe-e90e-48d7-b87a-53bea790e054</id>
+      <masked>false</masked>
+      <name>findex</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a67d223e-af55-491f-8375-d1006f2bc20d</id>
+      <masked>false</masked>
+      <name>xpath</name>
+   </variable>
+</TestCaseEntity>

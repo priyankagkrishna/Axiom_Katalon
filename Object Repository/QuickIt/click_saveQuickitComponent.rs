@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>click_saveQuickitComponent</name>
+   <tag></tag>
+   <elementGuidId>ec8c86ee-ba40-4a6b-a067-92b6bc6b2c1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id=&quot;quickkit_detail&quot;]/following-sibling::div/input[@id=&quot;SL_SO_SAVE&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id=&quot;quickkit_detail&quot;]/following-sibling::div/input[@id=&quot;SL_SO_SAVE&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

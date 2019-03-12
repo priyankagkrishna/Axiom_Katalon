@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>save_lotsupressed</name>
+   <tag></tag>
+   <elementGuidId>5f1ec199-d1c2-4d53-8e53-617b24e55204</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@class='right']/input[@id='SL_SO_SAVE']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[@class='right']/input[@id='SL_SO_SAVE']</value>
+   </webElementProperties>
+</WebElementEntity>

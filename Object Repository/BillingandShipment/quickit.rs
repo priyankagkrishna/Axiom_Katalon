@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>quickit</name>
+   <tag></tag>
+   <elementGuidId>d00e0fa0-5df6-4840-b5b2-3a34e9e42689</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id=&quot;SL_SO_DETL_QUICKKIT&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id=&quot;SL_SO_DETL_QUICKKIT&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

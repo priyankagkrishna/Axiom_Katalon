@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>click_yes</name>
+   <tag></tag>
+   <elementGuidId>69f60ee1-aca5-495b-ab6b-a575b9f190c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id=&quot;dirty_popup_window&quot;]//input[@value=&quot;Yes&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id=&quot;dirty_popup_window&quot;]//input[@value=&quot;Yes&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

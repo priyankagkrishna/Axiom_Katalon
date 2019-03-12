@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_packoption</name>
+   <tag></tag>
+   <elementGuidId>5e091ae3-a7a3-43fe-ba45-b31b62c409da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id=&quot;WH_SHIP_SHP_HEDR_OPERATION&quot;]/option[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id=&quot;WH_SHIP_SHP_HEDR_OPERATION&quot;]/option[3]</value>
+   </webElementProperties>
+</WebElementEntity>

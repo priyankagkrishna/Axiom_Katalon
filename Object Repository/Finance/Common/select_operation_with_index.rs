@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_operation_with_index</name>
+   <tag></tag>
+   <elementGuidId>85c6ca5b-d10a-4234-b67b-2a46129c2bc2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id=&quot;WH_SHIP_SHP_HEDR_OPERATION&quot;]/option[${index}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id=&quot;WH_SHIP_SHP_HEDR_OPERATION&quot;]/option[${index}]</value>
+   </webElementProperties>
+</WebElementEntity>

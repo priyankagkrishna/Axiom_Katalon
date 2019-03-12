@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>ItemAddDetails</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>9fb70c69-60d0-4ea5-b456-8b020ba25bc5</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>BATTC 100 50 89 1212</data>
+   <data>LOT+ITEM 100 50 90 1212</data>
+   <data>SERIAL 1 20 95 1212</data>
+   <data>CASE_2018_LOTSUP_SER 1 10 25 1212</data>
+   <data>AMPLIFIER 3 10 42 1212</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Item_No</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Order_Quantity</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Unit_Cost</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>Customer_Item_No</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>Date_Code_Req</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

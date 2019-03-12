@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SalesOrderwithQuickItItem</name>
+   <tag></tag>
+   <comment>-------User Login--------
+------SalesOrder Naviagtion-----
+---------SalesOrderGeneral Information-------
+---------ItemAddition--------
+----------Save -----------------
+--------ChangeShipToStatus-----
+-----------Release-----------
+----------AllocateQuickitItem----------
+---------------OperationGeneralShipment--------
+--------------ProcessShipment---------
+-------ReviewShipment--------
+------PackShipment--------</comment>
+   <testCaseGuid>72f8938c-dc57-4075-8b84-a62ad34c47ab</testCaseGuid>
+</TestCaseEntity>

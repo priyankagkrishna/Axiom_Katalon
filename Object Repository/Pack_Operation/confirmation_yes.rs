@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>confirmation_yes</name>
+   <tag></tag>
+   <elementGuidId>f0b4742c-a238-4c67-83b1-43f30380f2b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[@id=&quot;confirm_popup_window&quot;]//input[@value=&quot;Yes&quot;])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[@id=&quot;confirm_popup_window&quot;]//input[@value=&quot;Yes&quot;])[1]</value>
+   </webElementProperties>
+</WebElementEntity>

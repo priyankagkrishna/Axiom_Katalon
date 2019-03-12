@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>click_allocatequickit</name>
+   <tag></tag>
+   <elementGuidId>df3539a2-d019-4e3f-a3ca-c6067c07eb5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@id='quickkitalloc']//a[@class='handpointer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[@id='quickkitalloc']//a[@class='handpointer']</value>
+   </webElementProperties>
+</WebElementEntity>

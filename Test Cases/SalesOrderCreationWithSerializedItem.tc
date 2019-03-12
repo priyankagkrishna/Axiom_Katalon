@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SalesOrderCreationWithSerializedItem</name>
+   <tag></tag>
+   <comment>-------User Login--------
+------SalesOrder Naviagtion-----
+---------SalesOrderGeneral Information-------
+---------ItemAddition--------
+----------Save -----------------
+-----------Release-----------
+--------Generate And Process Shipment----------
+-----------Invoice Generation------------</comment>
+   <testCaseGuid>82b48194-9981-4251-833b-1db710b801ae</testCaseGuid>
+</TestCaseEntity>

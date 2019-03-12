@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>item_save</name>
+   <tag></tag>
+   <elementGuidId>30b1ca0c-056c-4c7f-969e-93ad32f45220</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class]/input[@id=&quot;SL_SO_SAVE&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class]/input[@id=&quot;SL_SO_SAVE&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_orderNo</name>
+   <tag></tag>
+   <elementGuidId>90c68bb9-9929-4305-bd23-ed91725fe9ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;main_sub_tab&quot;]/div[1]/div/div/ul/li[2]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;main_sub_tab&quot;]/div[1]/div/div/ul/li[2]/label</value>
+   </webElementProperties>
+</WebElementEntity>

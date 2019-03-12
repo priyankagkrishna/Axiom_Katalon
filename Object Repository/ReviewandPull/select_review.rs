@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_review</name>
+   <tag></tag>
+   <elementGuidId>893c9975-4cd7-4ac9-b531-8a1ea41f8142</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id=&quot;WH_SHIP_SHP_HEDR_OPERATION&quot;]/option[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id=&quot;WH_SHIP_SHP_HEDR_OPERATION&quot;]/option[2]</value>
+   </webElementProperties>
+</WebElementEntity>

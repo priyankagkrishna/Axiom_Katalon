@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SalesOrderCreation</name>
+   <tag></tag>
+   <comment>-------User Login--------
+------SalesOrder Naviagtion-----
+---------SalesOrderGeneral Information-------
+---------ItemAddition--------
+----------Save -----------------
+-----------Release-----------</comment>
+   <testCaseGuid>8edcf4fe-76fd-449c-92a1-ea9253d6f769</testCaseGuid>
+   <variable>
+      <defaultValue>'Kumar'</defaultValue>
+      <description></description>
+      <id>438a7e27-e756-4a61-9b36-262b7e0790ac</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'1n9pp2.0'</defaultValue>
+      <description></description>
+      <id>a854b81d-b131-4b9e-b57c-46a9f7143aa8</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>filter_RefNo</name>
+   <tag></tag>
+   <elementGuidId>7feca84c-f09c-4ef4-b733-9cfec85a542e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//th[@data-field=&quot;OrderNo&quot;]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//th[@data-field=&quot;OrderNo&quot;]/a/span</value>
+   </webElementProperties>
+</WebElementEntity>

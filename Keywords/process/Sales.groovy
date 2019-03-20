@@ -174,17 +174,17 @@ class Sales {
 		validationKeywords.validateAndUpdateExcelbyVerifyElement("//label[@id='LBL_SL_SO_DETL_ITEMID']","Header Information Added")
 		try {
 
-			WebUI.setText(findTestObject('Common/input_with_id', [('id') : '_MFG']), ItemNum)
-			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : '_MFG_listbox']))
+			WebUI.setText(findTestObject('Common/input_with_id', [('id') : 'SL_SO_DETL_ITEMID']), ItemNum)
+			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : 'SL_SO_DETL_ITEMID_listbox']))
 		}
 		catch (Exception e) {
-			WebUI.setText(findTestObject('Common/input_with_id', [('id') : '_MFG']), ItemNum)
-			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : '_MFG_listbox']))
+			WebUI.setText(findTestObject('Common/input_with_id', [('id') : 'SL_SO_DETL_ITEMID']), ItemNum)
+			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : 'SL_SO_DETL_ITEMID_listbox']))
 
 		}
 		WebUI.delay(7)
 		WebUI.sendKeys(findTestObject('Common/textarea_with_id', [('id') : 'SL_SO_DETL_ITEMDESC']), Keys.chord(Keys.TAB))
-		WebUI.delay(2)
+		WebUI.delay(3)
 		WebUI.setText(findTestObject('Common/input_quantity', [('value') : 'order_qty', ('id') : 'SL_SO_SCH_ORDQTY']), Orderqty)
 		WebUI.waitForElementVisible(findTestObject('Common/input_quantity', [('value') : 'order_qty', ('id') : 'SL_SO_SCH_ORDQTY']),10)
 		checkForPopUp()
@@ -209,6 +209,7 @@ class Sales {
 		WebUI.click(findTestObject('Trading/item_save'))
 		checkForPopUp_Gp()
 		validationKeywords.validationForItemAdd(ItemNum)
+		naviagtetoBillingandShippingpage()
 		navigatetodocumentspage()
 	}
 
@@ -345,13 +346,13 @@ class Sales {
 		validationKeywords.validateAndUpdateExcelbyVerifyElement("//label[@id='LBL_SL_SO_DETL_ITEMID']","Header Information Added")
 		try {
 
-			WebUI.setText(findTestObject('Common/input_with_id', [('id') : '_MFG']), ItemNum)
-			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : '_MFG_listbox']))
+			WebUI.setText(findTestObject('Common/input_with_id', [('id') : 'SL_SO_DETL_ITEMID']), ItemNum)
+			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : 'SL_SO_DETL_ITEMID_listbox']))
 		}
 		catch (Exception e) {
 			WebUI.delay(2)
-			WebUI.setText(findTestObject('Common/input_with_id', [('id') : '_MFG']), ItemNum)
-			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : '_MFG_listbox']))
+			WebUI.setText(findTestObject('Common/input_with_id', [('id') : 'SL_SO_DETL_ITEMID']), ItemNum)
+			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : 'SL_SO_DETL_ITEMID_listbox']))
 		}
 		WebUI.delay(7)
 		WebUI.sendKeys(findTestObject('Common/textarea_with_id', [('id') : 'SL_SO_DETL_ITEMDESC']), Keys.chord(Keys.TAB))
@@ -388,12 +389,14 @@ class Sales {
 	@Keyword
 	def lotAllocationFromGrid(){
 
+		commonkeywords.imageloadingIcon()
 		WebUI.click(findTestObject('Common/link_with_class',[('class') :'handpointer bluecolor soallocate']))
 		commonkeywords.imageloadingIcon()
 		WebUI.delay(3)
 		//WebUI.click(findTestObject('LotSupressed/click_allocatedfield'))
 		WebUI.setText(findTestObject('Common/input_with_id',[('id'):'SL_SO_ALLC_STOCKALLOCATED']), '100')
 		WebUI.click(findTestObject('LotSupressed/save_lotsupressed'))
+		naviagtetoBillingandShippingpage()
 		navigatetodocumentspage()
 
 	}
@@ -416,12 +419,12 @@ class Sales {
 
 		try {
 
-			WebUI.setText(findTestObject('Common/input_with_id', [('id') : '_MFG']), ItemNum)
-			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : '_MFG_listbox']))
+			WebUI.setText(findTestObject('Common/input_with_id', [('id') : 'SL_SO_DETL_ITEMID']), ItemNum)
+			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : 'SL_SO_DETL_ITEMID_listbox']))
 		}
 		catch (Exception e) {
-			WebUI.setText(findTestObject('Common/input_with_id', [('id') : '_MFG']), ItemNum)
-			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : '_MFG_listbox']))
+			WebUI.setText(findTestObject('Common/input_with_id', [('id') : 'SL_SO_DETL_ITEMID']), ItemNum)
+			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : 'SL_SO_DETL_ITEMID_listbox']))
 		}
 
 		WebUI.delay(7)
@@ -443,16 +446,18 @@ class Sales {
 		disableQuickit()
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Common/elem_with_dynamicXpath',[('xpath'):"//div[@id=\'confirm_popup_window_validation\']//input[@value=\'No\']"]), 10)
 		checkForPopUp()
-		allocationProcess()
-		/*WebUI.waitForElementClickable(findTestObject('Common/link_with_title', [('link') : 'Allocated']), 10)
-		 WebUI.delay(5)
-		 WebUI.click(findTestObject('Object Repository/Common/id_common', [('id') : 'itemallocationPopup']))
-		 WebUI.delay(1)
-		 commonkeywords.imageloadingIcon()
-		 //WebUI.click(findTestObject('Object Repository/Common/id_common', [('id') : 'itemallocationPopup']))
-		 WebUI.click(findTestObject('Trading/item_Allocate'))
-		 WebUI.click(findTestObject('Common/input_with_id_and_index', [('id') : 'SL_SO_SAVE', ('index') : '3']))
-		 */
+
+		//allocationProcess()
+		WebUI.waitForElementClickable(findTestObject('Common/link_with_title', [('link') : 'Allocated']), 10)
+		WebUI.delay(5)
+		WebUI.click(findTestObject('Object Repository/Common/id_common', [('id') : 'itemallocationPopup']))
+		WebUI.delay(1)
+		commonkeywords.imageloadingIcon()
+		//WebUI.click(findTestObject('Object Repository/Common/id_common', [('id') : 'itemallocationPopup']))
+		WebUI.click(findTestObject('Trading/item_Allocate'))
+		WebUI.click(findTestObject('Common/input_with_id_and_index', [('id') : 'SL_SO_SAVE', ('index') : '3']))
+
+
 		WebUI.waitForElementClickable(findTestObject('Trading/input_unitcost'), 10)
 		WebUI.delay(5)
 		WebUI.click(findTestObject('Trading/input_unitcost'))
@@ -462,6 +467,7 @@ class Sales {
 		WebUI.click(findTestObject('Trading/item_save'))
 		checkForPopUp_Gp()
 		validationKeywords.validationForItemAdd(ItemNum)
+		naviagtetoBillingandShippingpage()
 		navigatetodocumentspage()
 
 	}
@@ -484,14 +490,14 @@ class Sales {
 		validationKeywords.validateAndUpdateExcelbyVerifyElement("//label[@id='LBL_SL_SO_DETL_ITEMID']","Header Information Added")
 		try {
 
-			WebUI.setText(findTestObject('Common/input_with_id', [('id') : '_MFG']), ItemNum)
-			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : '_MFG_listbox']))
+			WebUI.setText(findTestObject('Common/input_with_id', [('id') : 'SL_SO_DETL_ITEMID']), ItemNum)
+			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : 'SL_SO_DETL_ITEMID_listbox']))
 		}
 		catch (Exception e) {
 			commonkeywords.imageloadingIcon()
 			WebUI.delay(2)
-			WebUI.setText(findTestObject('Common/input_with_id', [('id') : '_MFG']), ItemNum)
-			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : '_MFG_listbox']))
+			WebUI.setText(findTestObject('Common/input_with_id', [('id') : 'SL_SO_DETL_ITEMID']), ItemNum)
+			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : 'SL_SO_DETL_ITEMID_listbox']))
 		}
 
 		WebUI.delay(7)
@@ -531,6 +537,8 @@ class Sales {
 		WebUI.delay(3)
 		WebUI.setText(findTestObject('Common/input_with_id',[('id'):'SL_SO_ALLC_STOCKALLOCATED']), '1')
 		WebUI.click(findTestObject('LotSupressed/save_lotsupressed'))
+		naviagtetoBillingandShippingpage()
+		navigatetodocumentspage()
 
 	}
 	//Disabling  Quickit
@@ -583,7 +591,24 @@ class Sales {
 		WebUI.delay(2)
 
 	}
-	
+
+	@Keyword
+	def naviagtetoBillingandShippingpage(){
+		WebUI.delay(2)
+		commonkeywords.imageloadingIcon()
+		WebUI.click(findTestObject('Object Repository/Common/elem_with_dynamicXpath',[('xpath'): "//a[text()='Billing / Shipping']"]))
+		commonkeywords.imageloadingIcon()
+		WebUI.click(findTestObject('Object Repository/Common/elem_with_dynamicXpath',[('xpath'): "//select[@id='SL_SO_HEDR_SHIPVIAID']/option[@value='25|false']"]))
+		WebUI.delay(3)
+		WebUI.setText(findTestObject('Common/input_with_id',[('id'): 'SL_SO_HEDR_FRTACCT']), "123154")
+		commonkeywords.imageloadingIcon()
+		WebUI.click(findTestObject('Object Repository/Common/input_with_id',[('id'): 'SL_SO_SAVE']))
+		WebUI.click(findTestObject('Object Repository/Common/elem_with_dynamicXpath',[('xpath'): "//a[text()='Use Freight Account for only this order']"]))
+		//WebUI.click(findTestObject('Object Repository/Common/elem_with_dynamicXpath',[('xpath'): "//div[@id='confirm_popup_window']//input[@value='Yes']"]))
+
+	}
+
+
 }
 
 

@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>SalesOrderCreationwithLotSuppressedItem</name>
+   <name>SalesOrderCreationwithLotSuppressedandSerialized</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-03-20T11:50:20</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>78dac19f-010f-427b-845e-ccff130c6ef1</testSuiteGuid>
+   <testSuiteGuid>deacd146-cdf2-4557-9697-feee4d17c443</testSuiteGuid>
    <testCaseLink>
-      <guid>6f21644e-c9c2-4910-8af3-595c2429f22f</guid>
+      <guid>6d1ea5a3-9feb-4b2a-83d9-5d31acdd3114</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SalesOrderCreationwithLotSuppresed</testCaseId>
+      <testCaseId>Test Cases/SalesOrderCreationwithLotSupandSerialized</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a16acaa0-22dc-4ce0-a835-12bf87c92b59</guid>
+      <guid>afae87a9-716f-45b9-ae8b-34e92ad6c7f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Operations</testCaseId>
@@ -37,12 +36,12 @@
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>SCRIPT_VARIABLE</type>
-         <value>&quot;//a[@class='display_inline  icon apply_icon icon-arrow_right']&quot;</value>
+         <value>&quot;//td[@style='display: block;']/a[@class='display_inline  icon apply_icon icon-arrow_right']&quot;</value>
          <variableId>a67d223e-af55-491f-8375-d1006f2bc20d</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>878eceb2-a35d-46b7-b936-57c45717aacc</guid>
+      <guid>6870d38d-d7be-4edf-8d91-46b18e94c65e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FinanceProcess</testCaseId>

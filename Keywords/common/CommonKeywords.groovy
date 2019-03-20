@@ -156,7 +156,7 @@ public class CommonKeywords {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Common/div_loading_image_with_index', [('index') : '1']),
 		10)
 		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Common/div_loading_image_with_index', [('index') : '1']),
-		30)
+		25)
 	}
 
 

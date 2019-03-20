@@ -45,10 +45,10 @@ CustomKeywords.'process.Sales.release'()
 
 WebUI.comment('---------Operations-----------')
 
-WebUI.callTestCase(findTestCase('Operations'), [('index') : '5', ('findex') : '3', ('xpath') : '//a[@class=\'display_inline  icon apply_icon icon-arrow_right\']'], 
+/*WebUI.callTestCase(findTestCase('Operations'), [('index') : '5', ('findex') : '3', ('xpath') : '//a[@class=\'display_inline  icon apply_icon icon-arrow_right\']'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('------------------Finance---------------')
 
 WebUI.callTestCase(findTestCase('FinanceProcess'), [:], FailureHandling.STOP_ON_FAILURE)
-
+*/

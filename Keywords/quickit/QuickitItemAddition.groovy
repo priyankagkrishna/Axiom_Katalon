@@ -27,7 +27,7 @@ public class QuickitItemAddition {
 
 	common.CommonKeywords commonkeywords = new common.CommonKeywords()
 	process.Sales salesprocess= new process.Sales()
-	
+
 
 
 	@Keyword
@@ -45,11 +45,11 @@ public class QuickitItemAddition {
 
 		try {
 
-			WebUI.setText(findTestObject('Common/input_with_id', [('id') : '_MFG']), ItemNum)
+			WebUI.setText(findTestObject('Common/input_with_id', [('id') : 'SL_SO_DETL_ITEMID']), ItemNum)
 			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : '_MFG_listbox']))
 		}
 		catch (Exception e) {
-			WebUI.setText(findTestObject('Common/input_with_id', [('id') : '_MFG']), ItemNum)
+			WebUI.setText(findTestObject('Common/input_with_id', [('id') : 'SL_SO_DETL_ITEMID']), ItemNum)
 			WebUI.click(findTestObject('Trading/dropdown_select', [('idlist') : '_MFG_listbox']))
 		}
 
@@ -89,10 +89,9 @@ public class QuickitItemAddition {
 
 		commonkeywords.imageloadingIcon()
 		WebUI.click(findTestObject('Trading/item_save'))
-		
 	}
-	
-	
+
+
 	@Keyword
 	def quickitallocate(){
 		WebUI.click(findTestObject('Common/link_with_class',[('class'): 'detail_icon left icon edit center icon-edit']))
@@ -111,6 +110,6 @@ public class QuickitItemAddition {
 		}
 	}
 
-	
-	
+
+
 }

@@ -210,6 +210,8 @@ public class OperationsGenerateandProcessShipment {
 		WebUI.click(findTestObject('Pack_Operation/confirmation_yes'))
 		commonkeywords.imageloadingIcon()
 		WebUI.delay(1)
+		String shipstatus = WebUI.getText(findTestObject('ReviewandPull/ship_status'))
+		if(shipstatus.equalsIgnoreCase('Staged')){
 		stageprocess('1')
 		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/Common/elem_with_dynamicXpath',[('xpath'): "//select[@id='WH_SHIP_SHP_HEDR_OPERATION']/option[6]"]))
@@ -217,10 +219,19 @@ public class OperationsGenerateandProcessShipment {
 		String orderpackNum = GlobalVariable.orderNum
 		commonkeywords.setFilterinGrid('3', orderpackNum)
 		WebUI.click(findTestObject('Pack_Operation/click_packfilter',[('findex'): '2']))
-		String shipstatus = WebUI.getText(findTestObject('Object Repository/Common/elem_with_dynamicXpath',[('xpath'): "//a[@class='StatusDescription handpointer']/span"]))
+		shipstatus = WebUI.getText(findTestObject('Object Repository/Common/elem_with_dynamicXpath',[('xpath'): "//a[@class='StatusDescription handpointer']/span"]))
 		validationKeywords.validateAndUpdateExcelbyTextMatch(shipstatus, "Shipped", "Item Shipped")
 		WebUI.waitForElementPresent(findTestObject('Common/element_with_text', [('text') : 'Finance']), 10)
+		}
+		
+		else if(shipstatus.equalsIgnoreCase('Staged')){
+			validationKeywords.validateAndUpdateExcelbyTextMatch(shipstatus, "Shipped", "Item Shipped")
+			WebUI.waitForElementPresent(findTestObject('Common/element_with_text', [('text') : 'Finance']), 10)
+		}
+		
 	}
+		
+		
 
 
 

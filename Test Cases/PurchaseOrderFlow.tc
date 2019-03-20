@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PurchaseOrderFlow</name>
+   <tag></tag>
+   <comment>-------Login-------</comment>
+   <testCaseGuid>656b75f8-38ac-451f-83a0-15148d1a8df1</testCaseGuid>
+</TestCaseEntity>

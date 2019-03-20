@@ -4,7 +4,7 @@
    <name>SalesOrderCreationBasicFlow</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-03-06T11:32:57</lastRun>
+   <lastRun>2019-03-20T11:35:09</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

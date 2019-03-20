@@ -39,7 +39,7 @@ public class FinanceInvoiceGeneration {
 		WebUI.click(findTestObject('Common/element_with_text', [('text') : 'Accounts Receivable ']))
 		int currentTab = WebUI.getWindowIndex()
 		WebUI.click(findTestObject('Common/element_with_text', [('text') : 'Invoices']))
-		//WebUI.switchToWindowIndex(currentTab + 1)
+		WebUI.switchToWindowIndex(currentTab + 1)
 		commonkeywords.imageloadingIcon()
 		WebUI.delay(1)
 		validationKeywords.validateAndUpdateExcelbyVerifyElement("//h2[text()='Invoices']", "Navigated to Finance->Invoice")

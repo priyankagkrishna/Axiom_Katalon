@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>SalesOrderCreationwithLotSuppressedItem</name>
+   <name>SalesOrderCreationwithSerializedItem</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-03-20T11:50:20</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>78dac19f-010f-427b-845e-ccff130c6ef1</testSuiteGuid>
+   <testSuiteGuid>0c75f104-2648-458c-ae02-345d5a7444c6</testSuiteGuid>
    <testCaseLink>
-      <guid>6f21644e-c9c2-4910-8af3-595c2429f22f</guid>
+      <guid>34b722f0-0127-43fa-a9ac-fbdf6a8fafb8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SalesOrderCreationwithLotSuppresed</testCaseId>
+      <testCaseId>Test Cases/SalesOrderCreationWithSerializedItem</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a16acaa0-22dc-4ce0-a835-12bf87c92b59</guid>
+      <guid>2e60ce40-21d3-4d3b-83aa-c184cf83e2bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Operations</testCaseId>
@@ -37,12 +36,12 @@
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>SCRIPT_VARIABLE</type>
-         <value>&quot;//a[@class='display_inline  icon apply_icon icon-arrow_right']&quot;</value>
+         <value>&quot;//td[@style='display: block;']/a[@class='display_inline  icon apply_icon icon-arrow_right']&quot;</value>
          <variableId>a67d223e-af55-491f-8375-d1006f2bc20d</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>878eceb2-a35d-46b7-b936-57c45717aacc</guid>
+      <guid>421d7524-88f2-4aa4-b51e-f0692097f93c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FinanceProcess</testCaseId>

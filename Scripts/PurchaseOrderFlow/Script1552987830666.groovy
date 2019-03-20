@@ -11,37 +11,22 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import org.openqa.selenium.Keys as Keys
-import groovy.ui.text.TextEditor.TabAction as TabAction
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('-------User Login--------')
+WebUI.comment('-------Login-------')
 
 CustomKeywords.'common.CommonKeywords.LoginEnvironment'(GlobalVariable.environment)
 
-WebUI.comment('------SalesOrder Naviagtion-----')
+WebUI.comment('---------PurchaseOrderNavigation------')
 
-CustomKeywords.'process.Sales.navigatetoSalesOrder'()
+CustomKeywords.'purchaseOrder.PurchaseOrderCreation.navigateToPurchaseOrder'()
 
-WebUI.comment('---------SalesOrderGeneral Information-------')
+WebUI.comment('----------------PurchaseOrderGeneralInfo----------')
 
-CustomKeywords.'process.Sales.salesOrderGeneralInformation'()
+CustomKeywords.'purchaseOrder.PurchaseOrderCreation.purchaseOrderGeneralinfo'()
 
-WebUI.comment('---------ItemAddition--------')
+WebUI.comment('----------------ItemAdditionforPurchaseOrder----------')
 
-CustomKeywords.'process.Sales.addItemInSalesOrder'()
+CustomKeywords.'purchaseOrder.PurchaseOrderCreation.ItemAdditioninPurchaseOrder'()
 
-WebUI.comment('----------Save -----------------')
 
-CustomKeywords.'process.Sales.save'()
-
-WebUI.comment('-----------Release-----------')
-
-CustomKeywords.'process.Sales.release'()
-
-/*WebUI.callTestCase(findTestCase('Operations'), [('index') : '5', ('findex') : '3', ('xpath') : '//a[@class=\'display_inline  icon apply_icon icon-arrow_right\']'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FinanceProcess'), [:], FailureHandling.STOP_ON_FAILURE)
-
-*/

@@ -8,7 +8,7 @@
    <dataFileGUID>f18f77b3-2740-4995-b165-6d7d52e92641</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Renu FUSE 5 20 121546 3 15</data>
+   <data>Renu FUSE 5 20 121546 3 15 FUSE 2</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>Vendor</name>
@@ -42,6 +42,16 @@
    <internalDataColumns>
       <columnIndex>6</columnIndex>
       <name>Unit_Cost_NonIn</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>Item_LineDeatils</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>Quantity_Line</name>
       <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
